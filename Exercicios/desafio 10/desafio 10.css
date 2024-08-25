@@ -1,0 +1,122 @@
+@charset "UTF-8";
+body{
+    background-color: rgba(245, 233, 216, 0.904);
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+a{
+   font-weight: bold;
+    text-decoration: none;
+    color:rgb(13, 155, 77) ;
+}
+
+main{
+    background-color: white;
+    margin-left: 50px;
+    margin-bottom: 30px;
+    margin-right: 50px;
+    padding-bottom:20px ;
+    border-radius: 0px 0px 15px 15px;
+    
+}
+
+p{
+    margin: 20px;
+}
+
+h2{
+    margin: 15px;
+    background-image: linear-gradient( to left, rgb(255, 255, 255), rgb(115, 219, 162), rgb(35, 196, 107));
+}
+
+header{
+    
+    background-image: linear-gradient( to top, rgb(3, 82, 38), rgb(13, 155, 77), rgb(11, 182, 88));
+    padding: 10px;
+     }
+     main>h1{
+      margin-left:10px ;
+      font-family: ;
+   
+   }
+
+     header>h1{
+        color: white;
+        text-align: center;
+        text-shadow: 0px 2px 3px black;
+     }
+     header>p{
+        color: white;
+        text-align: center;
+        text-shadow: 0px 2px 3px black;
+     }
+     header>nav>a{
+        color: rgb(112, 255, 176);
+        margin-left: 11px;
+        padding: 9px;
+        text-decoration: none;
+     }
+
+     header>a:visited{
+      color:rgb(3, 82, 38) ;
+     }
+ 
+     header>nav{
+        margin-bottom: 3px;
+     }
+
+     header>nav>a:hover{
+        background-color:  rgb(13, 140, 70);
+        border-radius: 5px;
+        color: rgb(6, 63, 32);
+        transition: .5s;
+        
+        
+     }
+     h1{
+      color: rgb(13, 140, 70);
+        margin-top: 0px;
+        padding-top: 12px; 
+     }
+
+     #video{
+        background-color:  rgb(3, 82, 38);
+        margin: 0px;
+        padding: 30px;
+        text-align: center;
+     }
+     #video>video{
+      border-radius: 15px;
+     }
+     #no{
+      background-color:  rgb(11, 182, 88);
+      margin: 20px;
+      padding: px;
+      padding-bottom: 3px;
+      border-radius: 10px;
+      box-shadow: 0px 0px 10px black;
+   }
+
+      
+      #no>div>p{
+         font-weight: bold;
+         color: white;
+         background-color:rgb(3, 82, 38) ;
+         margin: 0px;
+         padding: 10px;
+         border-radius: 10px 10px 0px 0px;
+      }
+
+      #segundo>p{
+
+         text-align: center;
+      }
+      footer{
+         font-weight: bold;
+         color: white;
+         text-align: center;
+         padding: 2px;
+         background-color:  rgb(3, 82, 38);
+      
+      }

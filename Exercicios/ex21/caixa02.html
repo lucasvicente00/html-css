@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-image: linear-gradient( to left, rgb(184, 69, 69), rgb(117, 49, 49 ), rgb(63, 5, 5));
+        }
+        h1{
+            box-shadow: inset 2px 1px 14px 6px black;
+        
+        }
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin: 0px;
+        }
+        footer>p{
+            margin: 0px;
+        }
+        nav{
+            background-color: brown;
+            padding: 10px;
+            box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.726);
+        }
+        nav>a{
+            text-decoration: none;
+            color: black;
+            margin-right: 30px;
+            font-weight: bold;
+        }
+
+        nav>a:hover{
+            text-decoration: underline;
+            color: brown;
+
+        }
+        article{
+            padding: 5px;
+        }
+        article> aside{
+        text-align: center;
+        color: white;
+            background-image: linear-gradient( to left, rgb(184, 69, 69), rgb(117, 49, 49 ), rgb(184, 69, 69));
+        }
+        header>h1{
+            text-align: center;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <header>
+<h1>meu saite</h1>
+<nav>
+     <a href="#">Link</a>
+     <a href="#">Link</a>
+     <a href="#">Link</a>
+     <a href="#">Link</a>
+     <a href="#">Link</a>
+</nav>
+    </header>
+
+    <main>
+<section id="assuntos">
+    <p>Esportes politica e tecnolocia </p>
+
+</section>
+<section id="noticias">
+    <article>
+        <h2>Noticias sobre o mundo</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi eligendi voluptate ab hic dolor ad nobis architecto tenetur laboriosam. Accusantium magni recusandae delectus voluptatem necessitatibus quam architecto iusto ipsum adipisci? Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, aut. Voluptatibus natus nostrum expedita quam fuga placeat recusandae. Consectetur iure quis beatae corrupti accusamus velit dolore vero earum distinctio reprehenderit.</p>
+        <aside>
+            <p>artigo escrito por mim e mas ninguem</p>
+        </aside>
+    </article>
+    <article></article>
+</section>
+    </main>
+
+    <footer>
+<p>Desenvolvido por mim</p>
+    </footer>
+
+</body>
+</html>

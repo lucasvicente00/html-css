@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+
+        /*  Seletores personalizados
+        #  = id
+        .  = class
+        :  = pseodo-class 
+        :: = pseodo-elemento
+        >  = children(filho) 
+        
+        */
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a{
+         
+            color: rgb(255, 0, 0);
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+        a:visited{
+            color: black;
+        }
+        .especial{
+            background-color: rgb(180, 69, 69);
+        }
+        a:hover{
+            color: red;
+            text-decoration: underline;
+        }
+         a:active{
+            color:wheat;
+         }
+
+         a::after{
+            content:  '->';
+            color: darkred;
+            font-weight: normal;
+            text-decoration: none;
+        }
+        .especial::before{
+            content:  '<-';
+            color: darkred;
+            font-weight: normal;
+            text-decoration: none;
+
+        }
+
+         /*Pseodoelementos :: 
+         elas são - after*/
+
+         /*Pseodoclass : 
+         elas são - hover, visited, active */
+    </style>
+</head>
+<body>
+    <h1>Personalisando links</h1>
+    <ul>
+<li><a href="../ex17/font01.html" target="_blank" class="especial">repositorio</a></li>
+<li><a href="../ex16/cor03.html">canal</a></li>
+<li><a href="../ex15/pagina2.html">site do curso</a></li>
+  
+    </ul>
+    
+</body>
+</html>
